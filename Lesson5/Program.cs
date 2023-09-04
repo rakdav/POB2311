@@ -16,9 +16,14 @@
 //Console.WriteLine(res);
 
 //2.24
-Console.WriteLine("Введите n:");
-int n=int.Parse(Console.ReadLine());
-int a = n / 100;
-int b = n % 100;
-int c = b * 10 + a;
-Console.WriteLine(c);
+//Console.WriteLine("Введите n:");
+//int n=int.Parse(Console.ReadLine());
+//int a = n / 100;
+//int b = n % 100;
+//int c = b * 10 + a;
+//Console.WriteLine(c);
+const float m = 0.01f;
+Console.Write("Введите сантиметры:");
+double sm = double.Parse(Console.ReadLine());
+double res = sm * m;
+Console.WriteLine($"{sm} сантиметров {res:F2} метров");
