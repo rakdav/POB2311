@@ -58,3 +58,5 @@ byte a = byte.Parse(Console.ReadLine());
 Console.WriteLine(a);
 uint b = (uint)a;
 Console.WriteLine(b);
+
+//nnn
